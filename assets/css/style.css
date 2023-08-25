@@ -390,7 +390,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .roll {
-  height: 100vh;
+  height: 40vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .roller {
-  height: 4.125rem;
+  height: 4rem;
   line-height: 4rem;
   position: relative;
   overflow: hidden;
@@ -431,21 +431,33 @@ h1, h2, h3, h4, h5, h6 {
 .roller #rolltext {
   position: absolute;
   top: 0;
-  animation: slide 5s infinite;
+  animation: slide 7s infinite;
 }
 
 @keyframes slide {
   0%{
     top: 0;
   }
-  25%{
+  12%{
     top: -4rem;
   }
-  50%{
+  24%{
     top: -8rem;
   }
-  72.5%{
-    top: -12.25rem;
+  36%{
+    top: -12rem;
+  }
+  48%{
+    top: -16rem;
+  }
+  58%{
+    top: -20rem;
+  }
+  70%{
+    top: -24rem;
+  }
+  100%{
+    top: -28rem;
   }
 }
 
